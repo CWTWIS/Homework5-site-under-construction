@@ -1,0 +1,76 @@
+
+.flex{display: flex;}
+.flex-r{flex-direction: row;}
+.flex-c{flex-direction: column;}
+.just-con-c{justify-content: center;}
+.just-con-sa{justify-content: space-around;}
+.just-con-sb{justify-content: space-between;}
+.just-con-fe{justify-content: flex-end;}
+.ali-c{align-items: center;}
+.ali-fs{align-items: flex-start;}
+.t-c{text-align: center;}
+
+.whitecolor{color: white;}
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+.imglink{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+body{
+    background-image: url(./pics/pexels-photo-952670.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 5vh;
+    padding: 0 10vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.under h1{
+    font-size: 50px;
+    text-align: center;
+}
+.content{
+    min-height: 90vh;
+    gap: 5vh;
+}
+hr{
+    width: 80vw;
+}
+button{
+    min-width: 15vw;
+    min-height: 5vh;
+    box-shadow: 1px 9px 26px -6px rgba(0,0,0,0.75);
+}
+footer{
+    gap: 1vh;
+}
+.progress{
+    min-width: 25vw;
+    height: 3vh;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 9px 26px 6px rgba(0,0,0,0.75);
+}
+.progressbar{
+    min-height: 10vh;
+    gap: 2vh;
+}
+.progression{
+    background-color: black;
+    width: 78%;
+}
